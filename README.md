@@ -63,5 +63,5 @@ Participants **Must comply** the following rules:
 
 ```bash
 pip install -r requirements.txt
-python3 -m paddle.distributed.launch --gpu 0,1,2,3 pretrain.py run --arch 1245211121000000133323130054242414240000007424000000 --image_dir /root/paddlejob/workspace/env_run/data/ILSVRC2012/ --batch_size 1024 --max_epoch 90 --warmup 2 > 1245211121000000133323130054242414240000007424000000.log
+python3 -m paddle.distributed.launch --gpu 0,1,2,3 pretrain.py run --arch 1322221222220000122200000024540000000000005525000000 --image_dir /root/paddlejob/workspace/env_run/data/ILSVRC2012/ --batch_size 1024 --max_epoch 90 --warmup 2 > 1322221222220000122200000024540000000000005525000000.log
 ``` 
