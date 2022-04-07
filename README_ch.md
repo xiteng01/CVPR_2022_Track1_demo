@@ -4,6 +4,7 @@
 - [背景](#背景)
 - [赛题表述](#赛题表述)
 - [StandaloneTrainning](#StandaloneTrainning)
+- [SupernetTrainning](#SupernetTrainning)
 
 # CVPR 2022 NAS workshop Track1独立训练子网络Demo
 这是CVPR 2022 NAS workshop Track1独立训练子网络Demo, supernet训练Demo即将release!
@@ -60,4 +61,10 @@
 ```bash
 pip install -r requirements.txt
 python3 -m paddle.distributed.launch --gpu 0,1,2,3 pretrain.py run --arch 1322221222220000122200000024540000000000005525000000 --image_dir /root/paddlejob/workspace/env_run/data/ILSVRC2012/ --batch_size 1024 --max_epoch 90 --warmup 2 > 1322221222220000122200000024540000000000005525000000.log
+``` 
+
+# SupernetTrainning
+
+```bash
+sh train_supernet.sh
 ``` 

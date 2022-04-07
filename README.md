@@ -5,6 +5,7 @@ English | [简体中文](README_ch.md)
 - [Introduction](#Introduction)
 - [TaskDefinition](#TaskDefinition)
 - [StandaloneTrainning](#StandaloneTrainning)
+- [SupernetTrainning](#SupernetTrainning)
 
 This is standalone trainning demo for CVPR 2022 Track1. Supernet trainning will be released soon. 
 
@@ -64,4 +65,10 @@ Participants **Must comply** the following rules:
 ```bash
 pip install -r requirements.txt
 python3 -m paddle.distributed.launch --gpu 0,1,2,3 pretrain.py run --arch 1322221222220000122200000024540000000000005525000000 --image_dir /root/paddlejob/workspace/env_run/data/ILSVRC2012/ --batch_size 1024 --max_epoch 90 --warmup 2 > 1322221222220000122200000024540000000000005525000000.log
+``` 
+
+# SupernetTrainning
+
+```bash
+sh train_supernet.sh
 ``` 
