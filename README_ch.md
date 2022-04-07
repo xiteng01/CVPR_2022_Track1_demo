@@ -6,8 +6,8 @@
 - [StandaloneTrainning](#StandaloneTrainning)
 - [SupernetTrainning](#SupernetTrainning)
 
-# CVPR 2022 NAS workshop Track1独立训练子网络Demo
-这是CVPR 2022 NAS workshop Track1独立训练子网络Demo, supernet训练Demo即将release!
+# CVPR 2022 NAS workshop Track1 Demo
+这是CVPR 2022 NAS workshop Track1独立训练子网络Demo以及supernet训练Demo
 
 # 背景
 深度神经网络已经在图像识别、语音识别和机器翻译等任务上广泛应用并取得突破性成果。神经网络结构对最终模型的效果起到了至关重要的作用，传统基于手工设计的方法需要依赖丰富的人工经验和相关背景知识，并可能需要多次尝试和试错，因此，近年来神经网络结构搜索（NAS）技术成为学术界和工业界研究的热点。  

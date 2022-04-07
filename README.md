@@ -1,13 +1,13 @@
 English | [简体中文](README_ch.md)
 
-# Standalone Demo for CVPR 2022 Track1
+# Demo for CVPR 2022 Track1
 
 - [Introduction](#Introduction)
 - [TaskDefinition](#TaskDefinition)
 - [StandaloneTrainning](#StandaloneTrainning)
 - [SupernetTrainning](#SupernetTrainning)
 
-This is standalone trainning demo for CVPR 2022 Track1. Supernet trainning will be released soon. 
+This is standalone and supernet trainning demo for CVPR 2022 Track1. 
 
 # Introduction
 
